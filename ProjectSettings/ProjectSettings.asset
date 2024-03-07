@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: "\u30BF\u30A4\u30D4\u30F3\u30B0\u30B2\u30FC\u30E0\u30C6\u30B9\u30C8"
+  productName: "\u8A00\u3046\u307B\u3069\u9577\u3044\u304B\uFF1F\u30BF\u30A4\u30D4\u30F3\u30B0"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}

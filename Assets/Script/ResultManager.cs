@@ -21,11 +21,12 @@ public class ResultManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI ResultMessageConstText;
     [SerializeField] TextMeshProUGUI ResultMessageText;
     [SerializeField] GameObject ReturnToTitleButton;
+    [SerializeField] GameObject TweetButton;
     [SerializeField] GameObject ReplayButton;
     [SerializeField] float RouletteSpeed;
 
     // ‚»‚Ì‘¼‚Ì•Ï”éŒ¾
-    double LuPerRari;
+    public static double LuPerRari;
     System.Random rnd = new System.Random();
 
 
@@ -96,6 +97,7 @@ public class ResultManager : MonoBehaviour
         yield return new WaitForSeconds((float)1.3);
 
         ReturnToTitleButton.SetActive(true);
+        TweetButton.SetActive(true);
         ReplayButton.SetActive(true);
 
 
